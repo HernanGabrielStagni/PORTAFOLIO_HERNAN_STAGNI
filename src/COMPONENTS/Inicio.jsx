@@ -12,9 +12,9 @@ const Inicio = () => {
 
           
          <div className="imagen">
-            <img src="/public/img/Hernancepia3.png" alt="img programer" />
+            <img src="/img/Hernancepia3.png" alt="img programer" />
           </div> 
-               
+
        </section>
       );
 }

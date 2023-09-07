@@ -2,36 +2,32 @@
     background-color:rebeccapurple;
     color: #fff;
     width: 100%; 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
-    padding: 0em;
-    gap: 1em;
+  padding: 1em;
+  gap: 1em;
     text-align: center; 
  }
   
   .intro {
     background-color: rgb(218, 18, 18);
-    width: 50%; 
-    display: flex;
-     flex-direction: column;
-     justify-content: center;
-     gap: 1.5em;
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+   
     }
   
   .intro h1{
-font-size: 2.5rem;
+font-size: 2.0rem;
   }
 
 .intro p {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
 
 
   .imagen {
-   width: 40%; 
-   background-color: black;
-    /* min-width:150px; */
+  
+   /* background-color: black; */
+    
     padding: 1em;
     display: flex;
     justify-content: center;
