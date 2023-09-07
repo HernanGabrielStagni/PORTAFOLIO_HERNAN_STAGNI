@@ -1,27 +1,33 @@
 nav {
     display: flex;
-    justify-content: space-around;
-    padding: 1em 0em;
-    gap: 1em;
+    justify-content:space-between;
+    padding: .5em 1em;
+
     background-color: #333;
     color: #fff;
+    position: fixed;
+    width: 100%;
 
   }
   
   ul {
     list-style-type: none;
+    gap: 1em;
+    display: flex;
+    
     
    
   }
   
   li {
-    display: inline;
+   
     margin-right: 05px;
     margin-left: 05px;
       
 }
   
   a {
+    
     text-decoration: none;
     color: #fff;
   }
