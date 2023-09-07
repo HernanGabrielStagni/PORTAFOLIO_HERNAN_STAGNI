@@ -1,7 +1,8 @@
 nav {
     display: flex;
-    justify-content:space-between;
-    padding: .5em 1em;
+ 
+    padding: .5em .5em;
+
 
     background-color: #333;
     color: #fff;
@@ -12,22 +13,23 @@ nav {
   
   ul {
     list-style-type: none;
-    gap: 1em;
+    gap: .8em;
     display: flex;
-    
+    justify-content:space-between;
+   
     
    
   }
   
   li {
-   
-    margin-right: 05px;
-    margin-left: 05px;
+
+ 
       
 }
   
   a {
-    
+    margin-right: auto;
+    margin-left: auto;
     text-decoration: none;
     color: #fff;
   }
