@@ -1,19 +1,25 @@
 nav {
-    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0em;
+    gap: 1em;
     background-color: #333;
     color: #fff;
+
   }
   
   ul {
     list-style-type: none;
-    padding: 0;
+    
+   
   }
   
   li {
     display: inline;
     margin-right: 05px;
     margin-left: 05px;
-  }
+      
+}
   
   a {
     text-decoration: none;

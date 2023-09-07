@@ -1,25 +1,28 @@
 #inicio {
-    background-color:rebeccapurple;
+    background-color:black;
     color: #fff;
     width: 100%; 
   padding: 1em;
-  gap: 1em;
+  gap: 1.5em;
     text-align: center; 
  }
   
   .intro {
-    background-color: rgb(218, 18, 18);
+    background-color:black;
     display: grid;
     justify-content: center;
+    padding: 1em;
     gap: 1em;
    
     }
   
   .intro h1{
+    color: orangered;
 font-size: 2.0rem;
   }
 
 .intro p {
+    padding: 1em;
     font-size: 1.0rem;
   }
 
@@ -35,6 +38,6 @@ font-size: 2.0rem;
   
   .imagen img {
     margin:auto ;
-    background-color: rgb(163, 202, 156);
+    background-color:black;
   }
   
