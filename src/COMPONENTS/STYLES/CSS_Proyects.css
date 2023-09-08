@@ -1,0 +1,49 @@
+#proyects {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .proyects-container {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .proyect {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .proyect img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .proyect:hover img {
+    transform: scale(1.05);
+   
+  }
+  
+  .descripcion h3 {
+    margin-top: 10px;
+  }
+  
+  .descripcion a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .descripcion a:hover {
+    text-decoration: underline;
+  }
+  
