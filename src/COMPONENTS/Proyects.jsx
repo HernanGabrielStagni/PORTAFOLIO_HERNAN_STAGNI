@@ -21,8 +21,8 @@ function Proyect({ nombre, imagen, githubUrl, netlifyUrl }) {
 function Proyects() {
   const proyects = [
     {
-      nombre: 'Pokedex 111111',
-      imagen: '/img/0_Pokedex.png',
+      nombre: 'Great Phrases',
+      imagen: '/public/img/01_Great Phrases_1.png',
       githubUrl: 'https://github.com/HernanGabrielStagni/PORTFOLIO_HERNAN.git',
       netlifyUrl: 'https://entregable-5-pokedex-hernan-stagni.netlify.app/ ',
     },
