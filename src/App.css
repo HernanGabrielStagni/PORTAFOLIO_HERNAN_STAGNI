@@ -4,3 +4,11 @@
   box-sizing: border-box;
 
 }
+.contact_me{
+
+  background-color:rgb(57, 58, 58);
+ color: white;
+  width: 90px;
+  padding: .5em 0.2em;
+  
+}

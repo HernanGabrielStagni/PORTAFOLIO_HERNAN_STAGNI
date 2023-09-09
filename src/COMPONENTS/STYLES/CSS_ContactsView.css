@@ -1,0 +1,20 @@
+#contacto {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .info-contacto p {
+    margin: 10px 0;
+  }
+  
+  .info-contacto a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .info-contacto a:hover {
+    text-decoration: underline;
+  }
+  

@@ -8,12 +8,20 @@ import "./App.css";
 import NavBar from "./COMPONENTS/NavBar";
 import Inicio from "./COMPONENTS/Inicio";
 import SobreMi from "./COMPONENTS/SobreMi";
-import Contact from "./COMPONENTS/Contact";
+import Contact from "./COMPONENTS/FormContact";
 import Study from "./COMPONENTS/Study";
 import Proyects from "./COMPONENTS/Proyects";
+import ContactsView from "./COMPONENTS/ContactsView";
+import FormContact from "./COMPONENTS/FormContact";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [showForm, setShowForm] = useState(false);
+
+  const handleShowForm =()=>{
+    setShowForm(!showForm)
+    console.log(showForm)
+
+  }
 
   return (
     <main>
@@ -22,7 +30,11 @@ function App() {
       <SobreMi />
       <Proyects/>
       {/* <Study/> */}
-      <Contact />
+      {/* <Contact />*/}
+      <ContactsView/>
+      {showForm
+      ?<FormContact setShowForm={setShowForm}/>
+      : <button  className="contact_me" onClick={handleShowForm}>Contact me</button>}
     </main>
   );
 }
