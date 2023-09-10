@@ -5,7 +5,7 @@ const Inicio = () => {
     return (
         <section id="inicio">
 
-          <div className="intro">
+          <div className="presentation">
             <h1>Desarrollador Full Stack</h1>
             <p>¡Hola! Soy un desarrollador web full stack con experiencia en HTML, CSS, JavaScript, React, Git y npm.</p>
           </div>

@@ -13,6 +13,8 @@ import Study from "./COMPONENTS/Study";
 import Proyects from "./COMPONENTS/Proyects";
 import ContactsView from "./COMPONENTS/ContactsView";
 import FormContact from "./COMPONENTS/FormContact";
+import ModalLinks from "./COMPONENTS/ModalLinks";
+
 
 function App() {
   const [showForm, setShowForm] = useState(false);
@@ -28,12 +30,13 @@ function App() {
       <NavBar />
       <Inicio />
       <SobreMi />
+      {/* <ModalLinks /> */}
       <Proyects/>
       {/* <Study/> */}
       {/* <Contact />*/}
       <ContactsView/>
       {showForm
-      ?<FormContact setShowForm={setShowForm}/>
+      ?<FormContact setShowForm={setShowForm} handleShowForm={handleShowForm}/>
       : <button  className="contact_me" onClick={handleShowForm}>Contact me</button>}
     </main>
   );

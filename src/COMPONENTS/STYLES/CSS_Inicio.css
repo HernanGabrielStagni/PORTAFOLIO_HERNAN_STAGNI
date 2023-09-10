@@ -2,45 +2,54 @@
     background-color:black;
     color: #fff;
     width: 100%; 
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 1em;
-    gap: 1.5em;
 
-    text-align: center; 
+    gap: 1em;
+
+ 
     
  }
   
-  .intro {
+  .presentation {
+    width: 250px;
     background-color:black;
     display: grid;
     justify-content: center;
     padding: 2em 1em;
     gap: 1em;
+    text-align: center;
    
     }
   
-  .intro h1{
+  .presentation h1{
     color: orangered;
 font-size: 2.0rem;
   }
 
-.intro p {
+.presentation p {
     padding: 1em;
     font-size: 1.0rem;
   }
 
-
+/*contenedor donde esta la imagen foto*/
   .imagen {
-  
-   /* background-color: black; */
-    
+    width: 200px;
     padding: 1em;
+    background-color:black;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    /* margin-bottom: -33px; */
+
   }
   
   .imagen img {
-    margin:auto ;
-    background-color:black;
+     width: 100%;
+      background-color:black;
+      /* margin-right: -50px; */
+
   }
   
