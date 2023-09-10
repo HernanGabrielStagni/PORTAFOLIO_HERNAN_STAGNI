@@ -22,7 +22,7 @@ function Proyects() {
   const proyects = [
     {
       nombre: 'Great Phrases',
-      imagen: '/public/img/01_Great Phrases_1.png',
+      imagen: '/img/01_Great Phrases_1.png',
       githubUrl: 'https://github.com/HernanGabrielStagni/PORTFOLIO_HERNAN.git',
       netlifyUrl: 'https://entregable-5-pokedex-hernan-stagni.netlify.app/ ',
     },
