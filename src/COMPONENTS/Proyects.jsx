@@ -28,7 +28,7 @@ function Proyects() {
     },
     {
       nombre: 'Weather',
-      imagen: '/public/img/02.Weather.png',
+      imagen: '/img/02.Weather.png',
       githubUrl: 'https://github.com/HernanGabrielStagni/entregable2.hernan.9.8.23t',
       netlifyUrl: 'https://entregable2-stagni-9-8-23.netlify.app/',
     },
