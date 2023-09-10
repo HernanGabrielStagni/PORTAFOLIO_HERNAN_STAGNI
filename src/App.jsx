@@ -34,10 +34,11 @@ function App() {
       <Proyects/>
       {/* <Study/> */}
       {/* <Contact />*/}
-      <ContactsView/>
+     
       {showForm
       ?<FormContact setShowForm={setShowForm} handleShowForm={handleShowForm}/>
       : <button  className="contact_me" onClick={handleShowForm}>Contact me</button>}
+       <ContactsView/>
     </main>
   );
 }
