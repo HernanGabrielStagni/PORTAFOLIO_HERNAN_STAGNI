@@ -27,10 +27,10 @@ function Proyects() {
       netlifyUrl: 'https://entregable-5-pokedex-hernan-stagni.netlify.app/ ',
     },
     {
-      nombre: 'Pokedex 22222',
-      imagen: '/img/0_Pokedex.png',
-      githubUrl: 'https://github.com/HernanGabrielStagni/PORTFOLIO_HERNAN.git',
-      netlifyUrl: 'https://entregable-5-pokedex-hernan-stagni.netlify.app/ ',
+      nombre: 'Weather',
+      imagen: '/public/img/02.Weather.png',
+      githubUrl: 'https://github.com/HernanGabrielStagni/entregable2.hernan.9.8.23t',
+      netlifyUrl: 'https://entregable2-stagni-9-8-23.netlify.app/',
     },
     {
       nombre: 'Pokedex 22222',
