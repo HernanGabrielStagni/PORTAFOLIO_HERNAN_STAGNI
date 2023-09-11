@@ -5,7 +5,7 @@ const SobreMi = () => {
     return (
         <section id="sobre-mi">
           <div className="skills">
-            <h2>Mis Habilidades</h2>
+            <h2>My Skills</h2>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
