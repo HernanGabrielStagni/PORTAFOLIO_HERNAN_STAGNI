@@ -1,6 +1,7 @@
 #inicio {
     /* background-color:black; */
     background-image: URL('/img/fondo linkering.png');
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 
