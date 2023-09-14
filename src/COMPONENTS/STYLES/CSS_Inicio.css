@@ -1,5 +1,9 @@
 #inicio {
-    background-color:black;
+    /* background-color:black; */
+    background-image: URL('/public/img/fondo linkering.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
     color: #fff;
     width: 100%; 
     display: flex;
@@ -16,7 +20,7 @@
   
   .presentation {
     width: 250px;
-    background-color:black;
+    background-image:'/public/img/fondo linkering.png'; 
     display: grid;
     justify-content: center;
     padding: 2em 1em 0 1em;
@@ -39,16 +43,17 @@ font-size: 2.0rem;
   .imagen {
     width: 200px;
     padding: 1em;
-    background-color:black;
+    /* background-color:black; */
     display: flex;
     justify-content: end;
     /* margin-bottom: -33px; */
 
   }
   
+  /*FONDO DE la imagen foto*/
   .imagen img {
      width: 100%;
-      background-color:black;
+      /* background-color:black; */
       /* margin-right: -50px; */
 
   }

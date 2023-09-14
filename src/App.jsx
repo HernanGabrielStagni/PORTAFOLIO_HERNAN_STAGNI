@@ -14,6 +14,7 @@ import Proyects from "./COMPONENTS/Proyects";
 import ContactsView from "./COMPONENTS/ContactsView";
 import FormContact from "./COMPONENTS/FormContact";
 import ModalLinks from "./COMPONENTS/ModalLinks";
+import Medusa from "./COMPONENTS/Medusa";
 
 
 function App() {
@@ -25,20 +26,25 @@ function App() {
 
   }
 
+
+
   return (
     <main>
       <NavBar />
       <Inicio />
       <SobreMi />
       {/* <ModalLinks /> */}
+      {/* <Medusa/> */}
       <Proyects/>
       {/* <Study/> */}
       {/* <Contact />*/}
      
+
       {showForm
       ?<FormContact setShowForm={setShowForm} handleShowForm={handleShowForm}/>
       : <button  className="contact_me" onClick={handleShowForm}>Contact me</button>}
        <ContactsView/>
+       
     </main>
   );
 }

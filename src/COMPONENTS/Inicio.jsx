@@ -13,7 +13,7 @@ const Inicio = () => {
 
           
          <div className="imagen">
-            <img src="/img/Hernancepia3.png" alt="img programer" />
+            <img src="/public/img/teorianudos-euler.gif" alt="img programer" />
           </div> 
 
        </section>
