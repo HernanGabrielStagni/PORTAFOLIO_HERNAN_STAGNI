@@ -20,7 +20,7 @@
   
   .presentation {
     width: 250px;
-    background-image:'/public/img/fondo linkering.png'; 
+    background-image:'/img/fondo linkering.png'; 
     display: grid;
     justify-content: center;
     padding: 2em 1em 0 1em;
