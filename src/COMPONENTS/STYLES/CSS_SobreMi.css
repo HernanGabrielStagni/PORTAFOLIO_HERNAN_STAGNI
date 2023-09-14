@@ -3,15 +3,18 @@
   color: #fff;
   text-align: center;
   padding: 40px;
+  height: 100vh;
 }
 
 .skills {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 0 auto;
 }
 
 .skills h2 {
   margin-bottom: 20px;
+  color: orangered;
+  text-shadow: 2px 2px 8px rgba(255, 255, 0, 0.342);
 }
 
 .skills ul {
